@@ -1,0 +1,9 @@
+{
+  "file": "./models/stations.json",
+  "stations": [
+    {
+      "title": "Cavan",
+      "_id": "818486de-5df5-4779-b141-25e093c28da8"
+    }
+  ]
+}
