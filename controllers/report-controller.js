@@ -22,6 +22,7 @@ export const reportController = {
       temp: Number(request.body.temp),
       wind_speed: Number(request.body.wind_speed),
       pressure: Number(request.body.pressure),
+      wind_direction: (request.body.wind_direction),
     };
     console.log(`Updating Report ${reportId} from Station ${stationId}`);
     const report = await reportStore.getReportById(reportId);

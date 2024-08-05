@@ -45,6 +45,7 @@ export const reportStore = {
     report.temp = updatedReport.temp;
     report.wind_speed = updatedReport.wind_speed;
     report.pressure = updatedReport.pressure;
+    report.wind_direction = updatedReport.wind_direction
     await db.write();
   },
 };

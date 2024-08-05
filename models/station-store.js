@@ -10,6 +10,11 @@ export const stationStore = {
     return db.data.stations;
   },
 
+  async getStationsByUserId(userid) {
+    await db.read();
+    return db.data.stations.filter((station) => station.userid === userid);
+  },
+
   async addStation(station) {
     await db.read();
     station._id = v4();
@@ -34,6 +39,13 @@ export const stationStore = {
 
   async deleteAllStations() {
     db.data.stations = [];
+    await db.write();
+  },
+
+  async updateStation(station, updatedStation) {
+    station.title = updatedStation.title;
+    station.latitude = updatedStation.latitude;
+    station.longitude = updatedStation.longitude;
     await db.write();
   },
 };

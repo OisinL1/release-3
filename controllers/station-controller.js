@@ -7,6 +7,8 @@ export const stationController = {
     const station = await stationStore.getStationById(request.params.id);
     const viewData = {
       title: "Station",
+      latitude: Number(request, response),
+      longitude: Number(request,response),
       station: station,
     };
     response.render("station-view", viewData);
@@ -19,6 +21,7 @@ export const stationController = {
       temp: Number(request.body.temp),
       wind_speed: Number(request.body.wind_speed),
       pressure: Number(request.body.pressure),
+      wind_direction: (request.body.wind_direction)
     };
     console.log(`adding report ${newReport.code}`);
     await reportStore.addReport(station._id, newReport);

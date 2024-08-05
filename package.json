@@ -18,7 +18,7 @@
     "uuid": "^9.0.0"
   },
   "repository": {
-    "url": "https://github.com/wit-hdip-comp-sci-2023/station-1"
+    "url": "git+https://github.com/wit-hdip-comp-sci-2023/station-1.git"
   },
   "license": "MIT",
   "keywords": [
@@ -35,5 +35,10 @@
   },
   "devDependencies": {
     "prettier": "^2.8.4"
-  }
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/wit-hdip-comp-sci-2023/station-1/issues"
+  },
+  "homepage": "https://github.com/wit-hdip-comp-sci-2023/station-1#readme"
 }

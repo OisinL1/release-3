@@ -3,19 +3,30 @@
   "reports": [
     {
       "code": 12,
-      "temp": 0,
-      "wind_speed": 0,
-      "pressure": 0,
-      "_id": "e89e04e0-beb8-400d-a309-5e7434680976",
-      "stationid": "818486de-5df5-4779-b141-25e093c28da8"
-    },
-    {
-      "code": 10,
       "temp": 21,
       "wind_speed": 2.3,
       "pressure": 5.7,
-      "_id": "fc1ec2d2-1b18-4c06-af7e-a05d66b6e20a",
-      "stationid": "818486de-5df5-4779-b141-25e093c28da8"
+      "wind_direction": "E",
+      "_id": "794ce381-f0c4-46a3-be8f-d9c2690151be",
+      "stationid": "3562bb93-3616-4506-9e84-fccf41ff7677"
+    },
+    {
+      "code": 12,
+      "temp": 21,
+      "wind_speed": 2.3,
+      "pressure": 5.7,
+      "wind_direction": "W",
+      "_id": "415d403e-db0f-4166-95b3-00fe927a907a",
+      "stationid": "ea7e0bb3-f1e8-4f45-8e25-fef4587cf756"
+    },
+    {
+      "code": 12,
+      "temp": 21,
+      "wind_speed": 2.3,
+      "pressure": 5.7,
+      "wind_direction": "North",
+      "_id": "dfaedfc7-5919-4638-9a2b-0decab21d938",
+      "stationid": "ea7e0bb3-f1e8-4f45-8e25-fef4587cf756"
     }
   ]
 }

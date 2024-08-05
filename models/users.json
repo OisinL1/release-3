@@ -1,0 +1,12 @@
+{
+  "file": "./models/users.json",
+  "users": [
+    {
+      "firstName": "Oisin",
+      "lastName": "Larkin",
+      "email": "liballoisinl@gmail.com",
+      "password": "1234",
+      "_id": "38936510-d3ea-4a0f-a0d9-d3567e31d1ca"
+    }
+  ]
+}
