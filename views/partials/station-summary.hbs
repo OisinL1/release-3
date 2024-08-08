@@ -1,0 +1,89 @@
+<!-- latest-report-view.hbs -->
+<div class="columns is-multiline">
+  <div class="column is-one-fifth">
+    <div class="card has-background-black has-text-white">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <p class="title is-6 has-text-white">{{station.title}}</p>
+            <p class="subtitle is-7 has-text-white">Lat: {{station.latitude}}, Lon: {{station.longitude}}</p>
+          </div>
+          <div class="media-right">
+            <figure class="image is-32x32">
+              <img src="city-icon.png" alt="City">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column is-one-fifth">
+    <div class="card has-background-black has-text-white">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <p class="title is-6 has-text-white">Weather</p>
+            <p class="subtitle is-7 has-text-white">{{weatherSummary}}</p>
+          </div>
+          <div class="media-right">
+            <figure class="image is-32x32">
+              <img src="current-weather-icon.png" alt="Current Weather">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column is-one-fifth">
+    <div class="card has-background-black has-text-white">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <p class="title is-6 has-text-white">Temperature</p>
+            <p class="subtitle is-7 has-text-white">{{temperature.min}}°C - {{temperature.max}}°C</p>
+          </div>
+          <div class="media-right">
+            <figure class="image is-32x32">
+              <img src="temperature-icon.png" alt="Temperature">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column is-one-fifth">
+    <div class="card has-background-black has-text-white">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <p class="title is-6 has-text-white">Wind</p>
+            <p class="subtitle is-7 has-text-white">{{windSpeed.min}} km/h - {{windSpeed.max}} km/h</p>
+            <p class="subtitle is-7 has-text-white">Direction: {{station.wind_Direction}}</p>
+          </div>
+          <div class="media-right">
+            <figure class="image is-32x32">
+              <img src="wind-icon.png" alt="Wind">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column is-one-fifth">
+    <div class="card has-background-black has-text-white">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <p class="title is-6 has-text-white">Humidity</p>
+            <p class="subtitle is-7 has-text-white">{{humidity.min}}% - {{humidity.max}}%</p>
+          </div>
+          <div class="media-right">
+            <figure class="image is-32x32">
+              <img src="humidity-icon.png" alt="Humidity">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

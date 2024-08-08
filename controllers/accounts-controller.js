@@ -50,8 +50,5 @@ export const accountsController = {
     return await userStore.getUserByEmail(userEmail);
   },
 
-  async getLoggedInUser(request) {
-    const userEmail = request.cookies.playlist;
-    return await userStore.getUserByEmail(userEmail);
-  },
+ 
 };

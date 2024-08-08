@@ -2,23 +2,9 @@
   "file": "./models/stations.json",
   "stations": [
     {
-      "title": "Cavan",
-      "_id": "818486de-5df5-4779-b141-25e093c28da8"
-    },
-    {
-      "title": "yoyo",
+      "title": "Yo",
       "userid": "38936510-d3ea-4a0f-a0d9-d3567e31d1ca",
-      "_id": "53c9a4d2-5766-41ed-b2ca-68db02f18e94"
-    },
-    {
-      "title": "yo",
-      "userid": "38936510-d3ea-4a0f-a0d9-d3567e31d1ca",
-      "_id": "3562bb93-3616-4506-9e84-fccf41ff7677"
-    },
-    {
-      "title": "Audrey",
-      "userid": "38936510-d3ea-4a0f-a0d9-d3567e31d1ca",
-      "_id": "ea7e0bb3-f1e8-4f45-8e25-fef4587cf756"
+      "_id": "2bb14630-02bc-4164-b5d9-cd4ad6219d23"
     }
   ]
 }
