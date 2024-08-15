@@ -1,0 +1,19 @@
+{
+  "file": "./models/stations.json",
+  "stations": [
+    {
+      "title": "Cavan",
+      "latitude": "10",
+      "longitude": "11",
+      "userid": "3f0633c4-cd10-4d89-b644-3f846b96b7dd",
+      "_id": "0a9c9b80-6ba9-4cf5-a101-dae0b6b860a9"
+    },
+    {
+      "title": "Galway",
+      "latitude": "4",
+      "longitude": "1",
+      "userid": "3f0633c4-cd10-4d89-b644-3f846b96b7dd",
+      "_id": "b5cd7f65-9f3f-4c2d-b533-1d07b43d9b73"
+    }
+  ]
+}

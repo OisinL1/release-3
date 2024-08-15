@@ -1,0 +1,14 @@
+{
+  "file": "./models/reports.json",
+  "reports": [
+    {
+      "code": 12,
+      "temp": 21,
+      "wind_speed": 2.3,
+      "pressure": 5.7,
+      "wind_direction": "North",
+      "_id": "99f7e213-409b-4bd7-9391-20b35d956375",
+      "stationid": "0a9c9b80-6ba9-4cf5-a101-dae0b6b860a9"
+    }
+  ]
+}

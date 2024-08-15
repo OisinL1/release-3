@@ -1,26 +1,26 @@
-# Playlist Changelog
+# Station Changelog
 
 ## version 0.4.0
 
 - introduce login/signup views
 - incorporate sessions
-- associate playlists with users ids via the session
+- associate stations with users ids via the session
 
 ## version 0.3.0
 
 - introduce icons
-- introduce delete for playlist
-- introduce delete for track
+- introduce delete for station
+- introduce delete for report
 
 ## version 0.2.0
 
-- introduce track-store model
-- new view to display tracks
-- new form to add tracks to a playlist
+- introduce report-store model
+- new view to display reports
+- new form to add reports to a station
 
 ## version 0.1.0
 
 - initial version ported from glitch-template
-- introduce playlist-store model for simple playlists
-- allow playlists to be added to this model
-- list all playlists in the model
+- introduce station-store model for simple stations
+- allow stations to be added to this model
+- list all stations in the model
