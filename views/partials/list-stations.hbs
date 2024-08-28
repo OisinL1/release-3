@@ -1,12 +1,12 @@
 {{#each stations}}
 <div class="box box-link-hover-shadow">
   <h2 class="title">
-    {{title}}
+    {{> summary station=this.station latestReport=this.latestReport maxTempReport=this.maxTempReport minTempReport=this.minTempReport maxWindSpeedReport=this.maxWindSpeedReport minWindSpeedReport=this.minWindSpeedReport maxPressureReport=this.maxPressureReport minPressureReport=this.minPressureReport iconCode=this.iconCode hasReports=this.hasReports}}
   </h2>
-  <a href="/station/{{_id}}" class="button">
+  <a href="/station/{{this.station._id}}" class="button">
     {{>icons/open}}
   </a>
-  <a href="/dashboard/deletestation/{{_id}}" class="button">
+  <a href="/dashboard/deletestation/{{this.station._id}}" class="button">
     {{>icons/delete}}
   </a>
 </div>

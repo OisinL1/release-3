@@ -26,6 +26,11 @@
       <td>
         {{wind_direction}}
       </td>
+      <td>
+        <a href="/station/{{../station._id}}/deletereport/{{this._id}}" class="button is-small is-danger">
+          {{> icons/delete}}
+        </a>
+      </td>
     </tr>
     {{/each}}
   </tbody>
