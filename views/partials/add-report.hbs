@@ -1,3 +1,4 @@
+<!-- html for form to add report to a station -->
 <form class="box" action="/station/{{station._id}}/addreport" method="POST">
   <label>Enter Report Details and Select Wind Direction:</label>
   <div class="field is-horizontal">
@@ -15,6 +16,7 @@
         <input class="input" type="text" placeholder="Enter Pressure in Millibars" name="pressure">
       </div>
     </div>
+    <!-- dropdown menu to select wind direction -->
     <div class="field">
       <div class="control">
         <div class="select">
