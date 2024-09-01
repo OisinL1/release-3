@@ -19,6 +19,7 @@ export const dashboardController = {
   async index(request, response) {
     const loggedInUser = await accountsController.getLoggedInUser(request);
     const stations = await stationStore.getStationsByUserId(loggedInUser._id);
+    stations.sort((a, b) => a.title.localeCompare(b.title)); //iterates over stations and uses localeCompare to sort alphabetically
 
     // Array to store all data for each station
     const stationData = [];
